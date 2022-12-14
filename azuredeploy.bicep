@@ -1,6 +1,6 @@
 targetScope = 'subscription'
 
-param location string = 'uksouth'
+param location string = 'westeurope'
 param resourceGroupName string = 'rg-demo-private-endpoint'
 param virtualNetworkName string = 'vnet-demo-private-endpoint'
 param virtualNetworkAddresses array = [
@@ -18,7 +18,7 @@ param privateDnsZoneNames array = [
   'privatelink.queue.${environment().suffixes.storage}'
   'privatelink.file.${environment().suffixes.storage}'
 ]
-param storageAccountName string = 'stdemoendpoint'
+param storageAccountName string = 'stdemoendpoint01'
 param privateLinkGroupId string = 'file'
 
 resource resourceGroup 'Microsoft.Resources/resourceGroups@2021-04-01' = {
