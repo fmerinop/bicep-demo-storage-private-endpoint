@@ -1,1 +1,1 @@
-# Storage Account with Private Endpoint
+# Example of Storage Account with Private Endpoint
